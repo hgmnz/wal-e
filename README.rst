@@ -104,7 +104,7 @@ security problems.  However, the user running PostgreSQL (typically
 'postgres') must be able to run a program that can access this secret
 information, as part of its archive_command_.
 
-.. _archive_command: http://www.postgresql.org/docs/8.3/static/runtime-config-wal.html#GUC-ARCHIVE-COMMAND>
+.. _archive_command: http://www.postgresql.org/docs/current/static/runtime-config-wal.html#GUC-ARCHIVE-COMMAND
 
 envdir_, part of the daemontools_ package is one recommended approach
 to setting environment variables.  One can prepare an
